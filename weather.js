@@ -1,4 +1,4 @@
-//代码请求的数据是forecast，不是实时（返回当天），返回近三天天气数据，选择第二天数据作为预报，具体可参考[和风api技术文档](https://dev.heweather.com/docs/api/)
+//代码请求的数据是forecast，不是实时（返回当天），返回近三天天气数据，选择第二天数据作为预报，具体可参考和风api技术文档
 const request = require('request');
 const nodemailer = require('nodemailer');
 const schedule = require('node-schedule');
@@ -10,7 +10,7 @@ var j = schedule.scheduleJob(rule, function(){
   	sendWeather();
 });
 function sendWeather(){
-	const url= 'https://free-api.heweather.net/s6/weather/forecast?key=YOUR_KEY0&location=CITY_CODE'; // YOUR_KEY:创建应用后获得；CITY_CODE:[这里搜索](https://where.heweather.com/index.html)
+	const url= 'https://free-api.heweather.net/s6/weather/forecast?key=YOUR_KEY0&location=CITY_CODE'; 
 	request(url,(error,response,body)=>{
 		if(error){
 			console.log(error);
