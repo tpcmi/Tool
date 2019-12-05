@@ -1,6 +1,6 @@
 # Tool
 - 百度文库下载（Win）：bdwk.zip
-- Weather Forecast：天气预报
+- Weather Forecast：weather.js
   - 环境：一台服务器，nodejs
   - 注册和风天气，新建应用，创建web key(根据服务器绑定ip)
   - 修改代码中[城市的location编号](https://where.heweather.com/index.html)，key值
