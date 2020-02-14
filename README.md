@@ -8,3 +8,4 @@
   - 由free-api链接返回的数据可参照[和风技术文档](https://dev.heweather.com/docs/api/)查看含义，也可以选择不同的返回数据内容
   - 可修改html编写的邮件格式及内容
 - SSR:为科学上网基本配置
+- win激活：windows7-10激活工具
